@@ -36,6 +36,7 @@ function App() {
 
   return (
     <div style={{ position: 'relative', minHeight: '100vh', overflow: 'hidden' }}>
+      {/* 這裡的路徑對應 public/assets/images/ */}
       <motion.img src="/assets/images/sticker1.png" className="bg-sticker" style={{ top: '10%', left: '5%', x: moveX, y: moveY }} />
       <motion.img src="/assets/images/sticker2.png" className="bg-sticker" style={{ bottom: '10%', right: '5%', x: moveX, y: moveY }} />
       <motion.img src="/assets/images/sticker3.png" className="bg-sticker" style={{ top: '20%', right: '15%', x: moveX, y: moveY }} />
